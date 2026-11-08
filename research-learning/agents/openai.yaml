@@ -1,0 +1,13 @@
+interface:
+  display_name: 科研学习与积累
+  short_description: 论文与书籍精读、个人笔记关联和分层知识积累
+  default_prompt: "用 $research-learning 结合我的科研学习档案带读：新导读先工程化讲清整篇论文并等待开始，续读承接当前阶段；按我指定的范围逐小节精读。第一回合只做忠实翻译和返璞归真，然后停下。只有我在之后明确要求细讲，才在第二回合用大白话短句详细讲解。我说跳过细讲或下一节时，下一小节从第一回合重新开始；遇争议按需核原始证据并回到当前阶段，按实际理解维护掌握记录与笔记关联。"
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,81 @@
+{
+  "repository": "https://github.com/skJack/kelip-paper-reading",
+  "commit": "925953b15813f18b25eeb1a1dca9790f54a47498",
+  "commit_date_utc": "2026-10-06T08:44:12Z",
+  "retrieved_date": "2026-11-06",
+  "retrieval": "GitHub connector fetch_file pinned to commit; local content checked against upstream Git blob SHA-1",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 skJack",
+  "dependency": "Python 3; pymupdf>=1.22",
+  "files": [
+    {
+      "upstream_path": "scripts/fetch_paper.py",
+      "local_path": "scripts/kelip/fetch_paper.py",
+      "git_blob_sha1": "2ff4715fb51820c51a19be1f14c214077f888d27",
+      "source_url": "https://github.com/skJack/kelip-paper-reading/blob/925953b15813f18b25eeb1a1dca9790f54a47498/scripts/fetch_paper.py",
+      "modified": false,
+      "sha256": "a1681677f161bdfd6ccbfb01e5a786953edc83c883b1f6c6433975d92ff02ac3",
+      "bytes": 34831,
+      "verified_git_blob_match": true
+    },
+    {
+      "upstream_path": "scripts/extract_figures.py",
+      "local_path": "scripts/kelip/extract_figures.py",
+      "git_blob_sha1": "accf842b3ca397b7b4966b0c528e137304a7b583",
+      "source_url": "https://github.com/skJack/kelip-paper-reading/blob/925953b15813f18b25eeb1a1dca9790f54a47498/scripts/extract_figures.py",
+      "modified": false,
+      "sha256": "d25177865db8a3c75a4d8eb67a188ece2a6b0fb3e7040e01680afe9ee1981fe7",
+      "bytes": 34320,
+      "verified_git_blob_match": true
+    },
+    {
+      "upstream_path": "scripts/crop.py",
+      "local_path": "scripts/kelip/crop.py",
+      "git_blob_sha1": "48ade234ed0ce7f36236b4d4d1efc9b924f38c96",
+      "source_url": "https://github.com/skJack/kelip-paper-reading/blob/925953b15813f18b25eeb1a1dca9790f54a47498/scripts/crop.py",
+      "modified": false,
+      "sha256": "6ff191f2a7e45a14ba5b215d5945550c86a7c19a42579f34177d0ced9073f937",
+      "bytes": 4590,
+      "verified_git_blob_match": true
+    },
+    {
+      "upstream_path": "references/examples.md",
+      "local_path": "references/kelip-upstream/examples.md",
+      "git_blob_sha1": "fb8ec64663060d91265d7924fb0b639877af8f3c",
+      "source_url": "https://github.com/skJack/kelip-paper-reading/blob/925953b15813f18b25eeb1a1dca9790f54a47498/references/examples.md",
+      "modified": false,
+      "sha256": "c84d7703febfc11f785920476498b97e600aae824b9556f8972ad3a660345cdc",
+      "bytes": 17986,
+      "verified_git_blob_match": true
+    },
+    {
+      "upstream_path": "references/notes-template.md",
+      "local_path": "references/kelip-upstream/notes-template.md",
+      "git_blob_sha1": "fef84c5481ae84be6753f654cbcbdf80dfbb8838",
+      "source_url": "https://github.com/skJack/kelip-paper-reading/blob/925953b15813f18b25eeb1a1dca9790f54a47498/references/notes-template.md",
+      "modified": false,
+      "sha256": "21fb0205fde515b38e8775e7c18acaedc3d0fe463f67a6933055c85346ad1a4f",
+      "bytes": 2123,
+      "verified_git_blob_match": true
+    },
+    {
+      "upstream_path": "LICENSE",
+      "local_path": "references/kelip-upstream/LICENSE",
+      "git_blob_sha1": "5f9ab30f6b29491473e5a41959cfa35ea5653002",
+      "source_url": "https://github.com/skJack/kelip-paper-reading/blob/925953b15813f18b25eeb1a1dca9790f54a47498/LICENSE",
+      "modified": false,
+      "sha256": "12bf3b401282c16c573d95e4a95346ae2e164829b190e9f658f7868bf11d498d",
+      "bytes": 1063,
+      "verified_git_blob_match": true
+    }
+  ],
+  "validation_status": {
+    "git_blob_match": "all 6 files exact",
+    "compile": "3 scripts passed in memory",
+    "fetch_paper_help": "passed",
+    "pymupdf_available": false,
+    "download_pipeline_executed": false,
+    "image_extraction_executed": false,
+    "dependencies_installed": false
+  }
+}
